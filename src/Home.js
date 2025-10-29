@@ -127,12 +127,12 @@ export default function Home() {
           />
           <CardMobile
             title="Physical Fitness"
-            images={[/*"/images/yoga1.jpg", "/images/yoga2.jpg",*/ "/images/yoga1.jpg"]}
+            images={[/*"/images/yoga1.jpg", "/images/yoga2.jpg", */"/images/yoga1.jpg"]}
             desc="Exercise daily for better health and energy."
           />
           <CardMobile
             title="Mental Wellness"
-            images={[/*"/images/dep.jpg", "/images/dep1.jpg", */ "/images/yoga4.jpg"]}
+            images={[/*"/images/dep.jpg", "/images/dep1.jpg",*/ "/images/yoga4.jpg"]}
             desc="Mindfulness and stress control for emotional balance."
           />
           <CardMobile
@@ -254,4 +254,3 @@ const InsightCard = ({ img, title, color, list }) => (
     </ul>
   </div>
 );
-
