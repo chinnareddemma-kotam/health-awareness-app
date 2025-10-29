@@ -122,22 +122,22 @@ export default function Home() {
         <div className="px-4 py-8 space-y-6">
           <CardMobile
             title="Diabetes Management"
-            images={["/images/diabetes.jpg", "/images/diabetes1.jpg", "/images/diabetes2.jpg", "/images/diabetes3.jpg"]}
+            images={[/*"/images/diabetes.jpg", "/images/diabetes1.jpg", "/images/diabetes2.jpg",*/ "/images/diabetes1.jpg"]}
             desc="Regular screening and balanced diet for diabetes prevention."
           />
           <CardMobile
             title="Physical Fitness"
-            images={["/images/yoga1.jpg", "/images/yoga2.jpg", "/images/yoga3.jpg"]}
+            images={[/*"/images/yoga1.jpg", "/images/yoga2.jpg",*/ "/images/yoga1.jpg"]}
             desc="Exercise daily for better health and energy."
           />
           <CardMobile
             title="Mental Wellness"
-            images={["/images/dep.jpg", "/images/dep1.jpg", "/images/dep2.jpg"]}
+            images={[/*"/images/dep.jpg", "/images/dep1.jpg", */ "/images/yoga4.jpg"]}
             desc="Mindfulness and stress control for emotional balance."
           />
           <CardMobile
             title="Balanced Nutrition"
-            images={["/images/diet1.jpg", "/images/diet2.jpg", "/images/diet3.jpg"]}
+            images={[/*"/images/diet1.jpg", "/images/diet2.jpg",*/ "/images/diet3.jpg"]}
             desc="Healthy food choices for a sharp mind and strong body."
           />
         </div>
@@ -254,3 +254,4 @@ const InsightCard = ({ img, title, color, list }) => (
     </ul>
   </div>
 );
+
